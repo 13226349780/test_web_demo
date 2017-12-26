@@ -19,5 +19,6 @@ sleep(2)
 js = "window.scrollTo(100,450);"
 driver.execute_script(js)
 sleep(3)
-
+driver.get_screenshot_as_file("d:\\baidu_img.png")
 driver.quit()
+
