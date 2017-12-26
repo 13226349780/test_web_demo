@@ -21,11 +21,7 @@ class test_baidu_login(unittest.TestCase):
         login.send_keys('lqf1994019')
         sleep(3)
 
-
-
-
-
-
+        dirver.quit()
 
 
 if __name__ == '__main__':
