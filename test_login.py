@@ -18,7 +18,7 @@ class test_baidu_login(unittest.TestCase):
         account.send_keys('13226349780')
         login = dirver.find_element_by_id('TANGRAM__PSP_10__password')
         login.clear()
-        login.send_keys('lqf1994019')
+        login.send_keys('************')
         sleep(3)
 
         dirver.quit()
